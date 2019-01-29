@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+
+    android:orientation="vertical"
+
+    android:weightSum="8"
+
+    tools:context=".AddDeptActivity">
+
+
+
+    <View
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="1" />
+
+
+
+    <EditText
+
+        android:id="@+id/dept_name_editText"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_margin="16dp"
+
+        android:layout_weight="1"
+
+        android:hint="Enter a Department Name"
+
+        android:inputType="textPersonName"
+
+        android:lines="1"
+
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+    <EditText
+
+        android:id="@+id/location_et"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_margin="16dp"
+
+        android:layout_weight="1"
+
+        android:hint="Enter Department Location"
+
+        android:inputType="textPersonName"
+
+        android:lines="1"
+
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <Button
+
+            android:id="@+id/AddButton"
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+
+            android:layout_margin="16dp"
+
+            android:layout_weight="1"
+
+            android:background="@color/colorPrimary"
+
+            android:onClick="addDept"
+
+            android:padding="16dp"
+
+            android:text="@string/add_n_department"
+
+            android:textColor="@android:color/white" />
+
+        <Button
+
+            android:id="@+id/deleteButton"
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+
+            android:layout_margin="16dp"
+
+            android:layout_weight="1"
+
+            android:background="@color/colorPrimary"
+
+            android:onClick="deleteDepartment"
+
+            android:padding="16dp"
+
+            android:text="@string/delete_n_department"
+
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight=".5" />
+
+</LinearLayout>

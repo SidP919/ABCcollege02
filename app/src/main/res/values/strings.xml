@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ABC College</string>
+    <string name="title_activity_teachers_students">TeachersStudentsActivity</string>
+    <string name="delete_n_department">Delete \n  Department</string>
+    <string name="add_n_department">Add \n Department</string>
+
+</resources>
